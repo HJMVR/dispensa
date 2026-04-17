@@ -1,50 +1,50 @@
 <resources>
-    <string name="app_name">Dispensa</string>
+    <string name="app_name">Spisekammer</string>
 
     <!-- Toolbar -->
-    <string name="tab_title_all_products">All</string>
-    <string name="product_image_description">image</string>
-    <string name="add_new_product">Add product</string>
-    <string name="action_search">Search</string>
-    <string name="action_search_hint">Search product…</string>
-    <string name="action_toggle_layout">Change layout</string>
-    <string name="drag_handle_description">Move</string>
-    <string name="action_settings">Settings</string>
-    <string name="layout_grid_title">Grid</string>
-    <string name="layout_list_title">List</string>
+    <string name="tab_title_all_products">Alt</string>
+    <string name="product_image_description">Billede</string>
+    <string name="add_new_product">Tilføj produkt</string>
+    <string name="action_search">Søg</string>
+    <string name="action_search_hint">Søg efter produkt...</string>
+    <string name="action_toggle_layout">Skift layout</string>
+    <string name="drag_handle_description">Flyt</string>
+    <string name="action_settings">Indstillinger</string>
+    <string name="layout_grid_title">Gitter</string>
+    <string name="layout_list_title">Liste</string>
 
     <!-- Permissions -->
-    <string name="notify_permission_title">Permesso Notifiche Richiesto</string>
-    <string name="notify_permission_description">L\'app ha bisogno del permesso per inviarti notifiche sui prodotti in scadenza.</string>
-    <string name="notify_permission_accpeted">Permesso notifiche concesso</string>
-    <string name="notify_permission_denied">Permesso notifiche negato. Impossibile inviare notifiche.</string>
-    <string name="camera_permission_accepted">Permesso fotocamera concesso</string>
-    <string name="camera_permission_denied">Permesso fotocamera negato. Impossibile scansionare.</string>
+    <string name="notify_permission_title">Tilladelsesmeddelelser er påkrævet</string>
+    <string name="notify_permission_description">Appen skal have tilladelse til at sende dig notifikationer om udløbne produkter.</string>
+    <string name="notify_permission_accpeted">Tilladelsesmeddelelser givet</string>
+    <string name="notify_permission_denied">Tilladelse til at få notofikationer blev afvist. Appen kan ikke sende notifikationer.</string>
+    <string name="camera_permission_accepted">Kameratilladelse givet</string>
+    <string name="camera_permission_denied">Kameratilladelse blev afvist. Appen kan ikke scanne stregkoder nu.</string>
 
     <!-- Products -->
-    <string name="add_product">Add product</string>
-    <string name="edit_product">Edit product</string>
-    <string name="update_product">Update product</string>
-    <string name="barcode_hint">Barcode</string>
-    <string name="barcode_mandatory">Barcode is mandatory</string>
-    <string name="scan_barcode_description">Barcode scan</string>
-    <string name="scan_barcode_error">Barcode scan failed or cancelled</string>
-    <string name="no_barcode_in_image">Barcode not find.</string>
-    <string name="err_scan_from_image">Barcode scan failed.</string>
-    <string name="err_load_image">Error loading image.</string>
-    <string name="quantity_hint">Quantity</string>
-    <string name="quantity_mandatory">Quantity is mandatory</string>
-    <string name="err_quantity_zero">Quantity must be greater than zero</string>
+    <string name="add_product">Tilføj produkt</string>
+    <string name="edit_product">Rediger produkt</string>
+    <string name="update_product">Opdater produkt</string>
+    <string name="barcode_hint">Stregkode</string>
+    <string name="barcode_mandatory">Stregkode er påkrævet</string>
+    <string name="scan_barcode_description">Skan stregkode</string>
+    <string name="scan_barcode_error">Skanning af stegkode fejlede eller blev afbrudt</string>
+    <string name="no_barcode_in_image">Der blev ikke fundet en stregkode</string>
+    <string name="err_scan_from_image">Skanning af stregkode fejlede.</string>
+    <string name="err_load_image">Kunne ikke hentede billede</string>
+    <string name="quantity_hint">Antal</string>
+    <string name="quantity_mandatory">Antal er påkrævet</string>
+    <string name="err_quantity_zero">Antal skal være større end 0</string>
     <string name="err_quantity_valid">Insert a valid quantity</string>
-    <string name="expiry_date_hint">Expiry date</string>
-    <string name="save_product_button">Save product</string>
-    <string name="quantity_label">Quantity: %d</string>
-    <string name="expiry_date_label">Expiry: %s</string>
-    <string name="expiry_date_mandatory">Expiry date is mandatory</string>
-    <string name="add_product_title">Add product</string>
-    <string name="exp_date">Expiry: %s</string>
+    <string name="expiry_date_hint">Udløbsdato</string>
+    <string name="save_product_button">Gem prpdukt</string>
+    <string name="quantity_label">Antal: %d</string>
+    <string name="expiry_date_label">Udløber: %s</string>
+    <string name="expiry_date_mandatory">Udløbsdato er påkrævet</string>
+    <string name="add_product_title">Tilføj produkt</string>
+    <string name="exp_date">Udløb: %s</string>
     <string name="not_defined">N/D</string>
-    <string name="notify_load_product">loading product data…</string>
+    <string name="notify_load_product">henter produkt data…</string>
     <string name="err_load_product">Error loading product to edit.</string>
     <string name="err_camera">Error starting camera</string>
     <string name="err_barcode">Invalid barcode</string>
@@ -218,5 +218,4 @@
     <string name="consume_duplicate_title">Multiple products found. Choose which to consume:</string>
     <string name="consume_success">Product consumed successfully</string>
     <string name="consume_scan_description">Scan product to consume</string>
-    <string name="language_german">German</string>
 </resources>
